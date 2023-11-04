@@ -1,0 +1,114 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Verify user can select from auto suggestion",
+        "description": "",
+        "id": ";verify-user-can-select-from-auto-suggestion",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4756069500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "open google application",
+            "match": {
+              "location": "StepClass.open_google_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2507125800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "search for New Jersey",
+            "match": {
+              "location": "StepClass.search_for_New_Jersey()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "auto.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Verify user can select item from auto suggestion",
+        "description": "",
+        "id": ";verify-user-can-select-item-from-auto-suggestion",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3140171600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "open google application",
+            "match": {
+              "location": "StepClass.open_google_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2360558500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "search for New York",
+            "match": {
+              "location": "StepClass.search_for_New_York()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7548803400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click new york city",
+            "match": {
+              "location": "StepClass.click_new_york_city()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@tag"
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "sugges.feature"
+  }
+]
